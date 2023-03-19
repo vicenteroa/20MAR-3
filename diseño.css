@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    /*FUENTE*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ /*img {
+    transition: opacity 5s ease;
+  }
+  img {
+    opacity: 0;
+  }
+  img.aparecer {
+    opacity: 1;
+  }
+  */
+ header{
+    width: 100%;
+    height: 600px;
+    /*background: #659999;  /* fallback for old browsers */
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, hsla(43, 87%, 31%, 0.415)),url(PORTADA.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+ .texto-principal,.seccion-1,.seccion-2,.seccion-3,.seccion-4,.seccion-5,.seccion-6{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.texto-principal{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 2em;
+}
+
+#t-inicio {
+    transition: opacity 6s ease;
+  }
+  #t-inicio {
+    opacity: 0;
+  }
+  #t-inicio.aparecer {
+    opacity: 1;
+  }
+/*ANIMACION PARA PRIMERA IMAGEN*/
+.miniñahermosa{
+    float: left;
+    border-radius: 40px;
+}
+/*
+#tu {
+    transition: opacity 10s ease;
+  }
+  #tu {
+    opacity: 0;
+  }
+  #tu.aparecer {
+    opacity: 1;
+  }
+
+*/
+.parrafo-miniña{
+    position: relative;
+    left: 1px;
+    text-align: center;
+    top: 200px;
+    left: 1px;
+}
+.Titulo-seccion1{
+    position: relative;
+    left: 25px;
+}
+/*ANIMACION PARA SEGUNDA IMAGEN*/
+.primera-fotito{
+    float: left;
+    border-radius: 40px;  
+}
+/*
+#te-conoci {
+    transition: opacity 45s ease;
+  }
+  #te-conoci {
+    opacity: 0;
+  }
+  #te-conoci.aparecer {
+    opacity: 1;
+  }
+*/
+.parrafo-teconoci{
+    position: relative;
+    left: 1px;
+    text-align: center;
+    top: 100px;
+    left: 1px;
+}
+
+.foto-polo{
+    float: left;
+    border-radius: 40px;
+}
+
+.pedi-pololeo{
+    position: relative;
+    left: 1px;
+    text-align: center;
+    top: 130px;
+}
+.img-momentolindo{
+    float: left;
+    border-radius: 40px;
+}
+
+.parrafo-valoro{
+    position: relative;
+    left:1px;
+    text-align: center;
+    top: 210px
+}
+.img-espero-ano{
+    float: left;
+    border-radius: 40px;
+}
+.parrafo-nosotros{
+    position: relative;
+    left:1px;
+    text-align: center;
+    top: 120px
+
+}
